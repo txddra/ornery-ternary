@@ -9,8 +9,8 @@ function helloThere(name) {
 }
 
 
-function goodbyeYou() {
-
+function goodbyeYou(name) {
+  return typeof name === 'string' ? `Goodbye, `+name : 'Goodbye, stranger'
 }
 
 
