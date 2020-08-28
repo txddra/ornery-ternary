@@ -4,8 +4,8 @@ function isHot(temperature) {
 }
 
 
-function helloThere() {
-
+function helloThere(name) {
+  return name.length >= 6 ? 'Hi, '+name : 'Hello, '+ name
 }
 
 
